@@ -71,7 +71,7 @@ if st.button('Buscar Cadastro'):
         pdf.cell(100, 4, txt=f"Nome do usuário: {resultado.head().iat[0, 0]}", ln=True)
         pdf.cell(81, 4, txt=f"Nome da mãe: {resultado.head().iat[0, 2]}", ln=True)
         pdf.cell(127, 4, txt=f"Cartão Nacional de saúde: {resultado.head().iat[0, 3]} "
-                              f"RG: {resultado.head().iat[0, 4]}  CPF: {resultado.head().iat[0, 5]}", ln=True)
+                              f"CPF: {resultado.head().iat[0, 4]}  RG: {resultado.head().iat[0, 5]}", ln=True)
         pdf.cell(138, 4, txt=f"Endereço: {resultado.head().iat[0, 9]}", ln=True)
         pdf.cell(98, 4, txt=f"Municipio: {resultado.head().iat[0, 11]} "
                               f"Estado: {resultado.head().iat[0, 12]} "
