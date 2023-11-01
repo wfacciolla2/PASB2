@@ -1,0 +1,28 @@
+
+#pronto-atendimento-municipal-de-santa-branca{
+    text-align: center;
+}
+
+#ficha-de-atendimento-de-urg-ncia{
+    text-align: center;
+}
+
+#ala-respirat-ria-ala-n-o-respirat-ria{
+    text-align: center;
+}
+
+#01-dados-do-paci-nte-usu-rio-n-de-registro{
+    color: red;
+}
+
+footer{
+    visibility: hidden;
+}
+
+#MainMenu{
+    visibility: hidden;
+}
+
+#assinatura-do-paci-nte{
+    text-align: center;
+}
