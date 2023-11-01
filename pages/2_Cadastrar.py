@@ -20,7 +20,7 @@ def save_name(nomecompleto, datahora, nomemae, numerocartao, cpf, rg, datanascim
             st._rerun()
             break
 
-st.success('Não utilize acentuação nem cidilha. Ex.: ~`ç)
+st.success('Não utilize acentuação nem cidilha. Ex.: ~`ç')
 nomecompleto = st.text_input('Nome completo:')
 nomecompleto = nomecompleto.upper()
 datahora = datetime.today().replace(microsecond=0)
