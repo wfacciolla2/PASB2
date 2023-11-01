@@ -7,7 +7,6 @@ from Controller import controller as controler
 
 df = pd.read_csv('db2.csv')
 
-st.success('Para deletar duplicidade, altere o nome da duplicidade para ZZZ')
 
 # Solicite ao usuário que insira o nome para pesquisa
 nome_editar = st.selectbox('Selecione um nome para editar:', df.drop_duplicates(["nomecompleto"]))
